@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    top: 0vh;
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #1a1a1a;
+}
+
+li{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: 16px;
+
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#title{
+    position: relative;
+
+    text-align: center;
+    color: gray;
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+
+}
+
+#background{ 
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 20vh;
+
+}
+
+#bigBoy{
+    position: relative;
+    top: 15vh;
+    display: flex;
+}
+
+#left{
+    background-color: chartreuse;
+}
+
+#center{
+
+}
+
+#right{
+    color: brown;
+}
